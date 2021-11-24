@@ -1,0 +1,296 @@
+
+body{
+background-color: rgb(59, 59, 59);
+margin: 0%;
+
+}
+*{
+    font-family: serif;
+}
+
+.lenks{
+    color: white;
+    text-decoration: none;
+}
+.lenks:hover{
+    text-decoration: none;
+    color: rgb(223, 24, 130);
+}
+
+/* banda  */
+.dashbord{
+    margin: 0%;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(47, 47, 47);
+    background-image: url('images/image1.jpg');
+    /* background-image: url("images/navImage.jpg"); */
+}
+.logo{
+    color: rgb(223, 24, 130);
+  
+    font-size: 45px;
+    margin: 8px ;
+    margin-right: 20%;
+}
+.banda1{
+    
+    width: 100%;
+    height: 10vh;
+    color: rgb(251, 251, 251);
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(122, 120, 120, 0);
+
+    
+}
+
+.lanks{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 45%;
+    margin-right: 60px;
+}
+section{
+    display: flex;
+    justify-content: space-between;
+    text-align: center ;
+    font-size: 25px;
+    padding: 23px;
+    cursor: pointer;
+    
+    
+}
+
+.btn1{
+    background-color: rgba(194, 191, 191, 0.685);
+    color:white;
+    display: block;
+    position: absolute;
+    right: 25px;
+    top:23px;
+    border: none;
+    border-radius: 25px;
+    width: 10%;
+    height: 6vh;
+    font-size: 25px;
+}
+.btn1:hover{
+    background-color: rgb(250, 23, 110);
+
+}
+/* /banda */
+ 
+/* content  */
+.content{
+    color: white;
+    align-items: center;
+    text-align: center;
+   display: flex;
+   flex-direction: column;
+   margin-top: 25vh;
+    
+}
+
+.bigTitele{
+    font-size: 60px;
+    margin-bottom: 55px;
+}
+.smoltitel{
+    font-size: 30px;
+    
+
+}
+.btn2{
+    margin-top: 110px;
+    margin-bottom: 40px;
+    background-color: rgb(250, 23, 110);
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    height: 60px;
+    width: 275px;
+    height: 85px;
+    border-radius: 15px;
+    border: none;
+}
+.titelVideo{
+    cursor: pointer;
+    font-size: 20px;
+    
+}
+
+/* content  */
+/* model */
+.big-model{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+
+    background-color: rgba(34, 33, 33, 0.561);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+.content-model{
+    position: relative;
+    background-color: white;
+    width: 60%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+}
+       /* content model */
+       .close{
+           opacity: 0px;
+           width: 100%;
+           height: 4vh;
+         cursor: pointer;
+         background-color:rgb(250, 23, 110); 
+       }
+
+      #icone{
+       font-size:30px ;
+       position: absolute;
+       right: 5px;
+       color: rgb(255, 255, 255);
+      }
+         
+       .video-popup{
+           width: 100%;
+           height: 56vh;
+       }
+       /* content model */
+/* model */
+
+
+/* service */
+.service{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+.content-service{
+   
+    width: 20%;
+    height: 60vh;
+    margin: 8px auto;
+    border-radius: 20px;
+}
+.sp-color{
+    background-color: rgb(223, 18, 120);
+}
+.content-icone{
+    width: 95%;
+    margin: 10px auto;
+    height: 20vh;
+    border-radius: 10px;
+    background-color: rgb(255, 254, 254);
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+}
+#service-icone{
+    font-size: 60px;
+}
+.content-text-service{
+    display: flex;
+    flex-direction: column;
+    
+}
+.titel-service{
+    text-align: center;
+    font-size: 30px;
+}
+.text-service{
+    font-size: 15px;  
+    padding: 10px ;
+}
+
+/* service */
+
+.aboutus{
+    width: 100%;
+    height: 85vh;
+    
+    display: flex;
+    flex-direction: row;
+}
+.content-image-aboutus{
+    margin-top: 120px;
+    width: 40%;
+    height: 60vh;
+    background-color: rgb(116, 17, 141);
+    align-items: center;
+
+}
+.image2 {
+	width: 100%;
+	height: 100%;
+} 
+.content-text-about{
+    width: 60%;
+padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.titel-about{
+    font-size: 40px;
+}
+.text-about{
+    font-size: 20px;
+}
+
+/* contact us */
+
+.contactus{
+    width: 100%;
+height: 60vh;
+    background-color: rgb(223, 43, 103);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.text_input{
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+/* fouter */
+.fouter{
+    background-color: rgb(65, 64, 64);
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    margin-top: 60px;
+}
+.general{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.gnr{
+    font-size: 20px;
+}
+.logeFouter{
+    position: absolute;
+    right: 20px;
+   top: 30px;
+    font-size: 40px;
+    color: rgb(223, 24, 130);
+}
+
+  
+
+
+
